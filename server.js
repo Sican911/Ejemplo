@@ -63,6 +63,7 @@ app.get("/", (req, res) => {
 
 
 require("./app/routes/cliente.routes")(app);
+require("./app/routes/trabajador.routes")(app);
 
 // set port, listen for requests
 
